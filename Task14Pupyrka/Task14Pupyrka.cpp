@@ -35,6 +35,10 @@ bool print(bool pup[][12])
 }
 void burst(bool pup[][12], int k,int l, int n, int m)
 {
+	k--;
+	l--;
+	n--;
+	m--;
 	for (int i = k; i <=n ; i++)
 	{
 		for (int j = l; j <=m; j++)
@@ -75,10 +79,6 @@ int main()
 			else
 				num = false;
 		}
-		k--;
-		l--;
-		n--;
-		m--;
 		burst(pup, k, l, n, m);
 		num = true;
 	}
