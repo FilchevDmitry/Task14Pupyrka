@@ -75,7 +75,6 @@ int main()
 			else
 				num = false;
 		}
-
 		k--;
 		l--;
 		n--;
